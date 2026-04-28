@@ -1,0 +1,4 @@
+sudo apt-get update
+sudo apt install open-vm-tools-desktop
+sudo apt install curl
+sudo apt update && sudo apt install git
