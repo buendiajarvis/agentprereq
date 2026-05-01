@@ -2,3 +2,9 @@ sudo apt-get update
 sudo apt install open-vm-tools-desktop
 sudo apt install curl
 sudo apt update && sudo apt install git
+
+#enable RDP
+sudo apt update
+sudo apt install xrdp
+sudo systemctl enable xrdp
+sudo adduser xrdp ssl-cert
